@@ -1,0 +1,72 @@
+2025-07-08T22:26:18.348374 | SPY | Linear Regression | days_ahead=3 | R2=0.533 | MAE=5.17
+2025-07-08T22:29:52.493474 | SPY | Linear Regression | days_ahead=3 | R2=0.533 | MAE=5.17
+2025-07-08T22:31:34.734592 | AAPL | Linear Regression | hours_ahead=12 | R2=-24.394 | MAE=7.29
+2025-07-08T22:36:50.161456 | AAPL | Linear Regression | hours_ahead=12 | R2=-24.394 | MAE=7.29
+2025-07-08T22:43:52.540813 | AAPL | Linear Regression | hours_ahead=12 | R2=-24.394 | MAE=7.29
+2025-07-08T22:44:15.397702 | SPY | Linear Regression | days_ahead=3 | R2=0.533 | MAE=5.17
+2025-07-08T22:44:30.861466 | SPY | Linear Regression | hours_ahead=12 | R2=-7.249 | MAE=5.25
+2025-07-08T22:46:34.796413 | AMZN | Linear Regression | days_ahead=5 | R2=0.338 | MAE=3.01
+2025-07-08T22:47:57.597532 | AAPL | Linear Regression | hours_ahead=12 | Price=203.86 | R2=-24.394 | MAE=7.29
+2025-07-08T23:21:19.810740 | AAPL | Linear Regression | hours_ahead=12 | Price=203.86 | R2=-24.394 | MAE=7.29
+2025-07-08T23:22:49.486259 | AAPL | SVR | hours_ahead=12 | Price=209.83 | R2=-6.694 | MAE=3.10
+2025-07-08T23:22:57.594249 | AAPL | Random Forest | hours_ahead=12 | Price=209.98 | R2=0.961 | MAE=0.24
+2025-07-08T23:23:05.582412 | AAPL | Linear Regression | hours_ahead=12 | Price=203.86 | R2=-24.394 | MAE=7.29
+2025-07-08T23:24:01.555139 | AMZN | Linear Regression | days_ahead=5 | Price=228.61 | R2=0.338 | MAE=3.01
+2025-07-08T23:24:10.291276 | AMZN | Random Forest | days_ahead=5 | Price=219.56 | R2=0.991 | MAE=0.32
+2025-07-08T23:29:57.017625 | AAPL | Linear Regression | hours_ahead=12 | Price=203.86 | R2=-24.394 | MAE=7.29
+2025-07-08T23:30:36.940128 | AMZN | Linear Regression | days_ahead=5 | Price=228.61 | R2=0.338 | MAE=3.01
+2025-07-08T23:31:32.948378 | SPY | Linear Regression | days_ahead=3 | Price=631.84 | R2=0.533 | MAE=5.17
+2025-07-08T23:31:58.188828 | SPY | Linear Regression | hours_ahead=12 | Price=629.17 | R2=-7.249 | MAE=5.25
+2025-07-08T23:35:53.836483 | AAPL | SVR | hours_ahead=12 | Price=209.83 | R2=-6.694 | MAE=3.10
+2025-07-08T23:50:45.166919 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-08T23:50:45.622634 | AAPL | Random Forest | 12h | 209.89 | 0.9908 | 0.3691
+2025-07-08T23:50:45.903103 | AAPL | SVR | 12h | 209.83 | 0.2926 | 3.6342
+2025-07-08T23:51:03.534618 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-08T23:51:11.138315 | AAPL | Random Forest | 12h | 209.89 | 0.9911 | 0.3666
+2025-07-08T23:51:14.568656 | AAPL | SVR | 12h | 209.83 | 0.2926 | 3.6342
+2025-07-08T23:51:18.435058 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-08T23:54:41.117186 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-08T23:54:45.988938 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-08T23:54:46.549181 | AAPL | Random Forest | 12h | 209.90 | 0.9912 | 0.3655
+2025-07-08T23:54:46.765524 | AAPL | SVR | 12h | 209.83 | 0.2926 | 3.6342
+2025-07-08T23:56:29.635478 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-08T23:56:38.117520 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-08T23:56:38.471951 | AAPL | Random Forest | 12h | 209.96 | 0.9912 | 0.3621
+2025-07-08T23:56:38.724195 | AAPL | SVR | 12h | 209.83 | 0.2926 | 3.6342
+2025-07-08T23:59:01.329805 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-08T23:59:09.115394 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-08T23:59:09.457574 | AAPL | Random Forest | 12h | 209.94 | 0.9909 | 0.3662
+2025-07-08T23:59:09.643975 | AAPL | SVR | 12h | 209.83 | 0.2926 | 3.6342
+2025-07-09T00:01:25.401043 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-09T00:01:31.271732 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-09T00:01:31.808051 | AAPL | Random Forest | 12h | 209.92 | 0.9910 | 0.3631
+2025-07-09T00:01:32.095327 | AAPL | SVR | 12h | 209.85 | 0.2926 | 3.6342
+2025-07-09T00:04:20.477247 | SPY | Linear Regression | 3d | 631.89 | 0.8819 | 7.2964
+2025-07-09T00:04:27.583403 | SPY | Linear Regression | 3d | 631.89 | 0.8819 | 7.2964
+2025-07-09T00:04:27.932044 | SPY | Random Forest | 3d | 620.46 | 0.9991 | 0.5944
+2025-07-09T00:04:28.168042 | SPY | SVR | 3d | 608.92 | 0.9234 | 5.9374
+2025-07-09T00:05:49.075079 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-09T00:07:05.690515 | SPY | Linear Regression | 3d | 631.89 | 0.8819 | 7.2964
+2025-07-09T00:08:31.263892 | SPY | Linear Regression | 3d | 631.89 | 0.8819 | 7.2964
+2025-07-09T00:10:13.307395 | AAPL | Linear Regression | 7d | 204.01 | 0.0109 | 4.7300
+2025-07-09T00:12:47.185196 | SPY | Linear Regression | 3d | 631.89 | 0.8819 | 7.2964
+2025-07-09T00:12:54.054881 | SPY | Linear Regression | 3d | 631.89 | 0.8819 | 7.2964
+2025-07-09T00:12:54.417680 | SPY | Random Forest | 3d | 620.43 | 0.9991 | 0.5920
+2025-07-09T00:12:54.616696 | SPY | SVR | 3d | 608.92 | 0.9234 | 5.9374
+2025-07-09T00:13:26.924575 | AAPL | Linear Regression | 7d | 204.01 | 0.0109 | 4.7300
+2025-07-09T00:13:27.273007 | AAPL | Random Forest | 7d | 209.95 | 0.9911 | 0.3627
+2025-07-09T00:13:27.470495 | AAPL | SVR | 7d | 211.73 | 0.2926 | 3.6342
+2025-07-09T00:16:04.718148 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-09T00:16:14.507681 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-09T00:16:14.920689 | AAPL | Random Forest | 12h | 209.93 | 0.9908 | 0.3669
+2025-07-09T00:16:15.113783 | AAPL | SVR | 12h | 209.85 | 0.2926 | 3.6342
+2025-07-09T00:21:27.621119 | AAPL | Linear Regression | 7d | 204.01 | 0.0109 | 4.7300
+2025-07-09T00:23:58.954897 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-09T00:25:59.006175 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-09T00:25:59.489987 | AAPL | Random Forest | 12h | 209.92 | 0.9914 | 0.3612
+2025-07-09T00:25:59.706740 | AAPL | SVR | 12h | 209.85 | 0.2926 | 3.6342
+2025-07-09T00:26:13.259567 | AAPL | Linear Regression | 12h | 203.86 | 0.0109 | 4.7300
+2025-07-09T01:11:37.105644 | SPY | Linear Regression | 3d | 631.93 | 0.8819 | 7.2964
+2025-07-09T01:12:55.615749 | SPY | Linear Regression | 3d | 631.93 | 0.8819 | 7.2964
+2025-07-09T01:13:55.872893 | SPY | Linear Regression | 3d | 631.93 | 0.8819 | 7.2964
+2025-07-09T01:15:23.806686 | SPY | Linear Regression | 3d | 631.93 | 0.8819 | 7.2964
