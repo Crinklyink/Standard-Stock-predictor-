@@ -1,5 +1,6 @@
 yfinance
+pandas
+numpy
 scikit-learn
-tensorflow
-flask
+plotly
 gradio
