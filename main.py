@@ -154,6 +154,10 @@ def predict_stock(symbol, days_ahead=0, hours_ahead=0, model_name='Linear Regres
             data = data.rename(columns={possible_dt[0]: 'Datetime'})
         else:
             data = data.rename(columns={data.columns[0]: 'Datetime'})
+    # Remove rows with missing closing prices to avoid training errors
+    data = data.dropna(subset=['Close'])
+    if data.empty:
+        raise ValueError('No valid data after dropping missing Close values')
     # Use date+hour/24 as a single float feature for more granularity
     data['DateHour'] = pd.to_datetime(data['Datetime']).map(lambda d: d.toordinal() + d.hour/24.0)
     X = data[['DateHour']]
