@@ -6,6 +6,8 @@ This project is a Python-based chatbot that predicts stock market trends using m
 - Fetches real-time stock data (yfinance)
 - Predicts future stock prices (scikit-learn or TensorFlow)
 - Chatbot interface (CLI or web)
+- Gradient Boosting model option for improved accuracy
+- Placeholder Fidelity brokerage integration
 
 ## Setup
 1. Install dependencies: `pip install -r requirements.txt`
