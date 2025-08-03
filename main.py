@@ -3,12 +3,17 @@ import hashlib
 import yfinance as yf
 import pandas as pd
 from sklearn.linear_model import LinearRegression
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.svm import SVR
 from datetime import datetime, timedelta
 import numpy as np
 import plotly.graph_objs as go
 from sklearn.metrics import r2_score, mean_absolute_error
+from fidelity_api import FidelityBrokerage  # Placeholder for brokerage integration
+
+def connect_fidelity(api_key: str, api_secret: str):
+    """Initialize a FidelityBrokerage client (stub)."""
+    return FidelityBrokerage(api_key, api_secret)
 
 # Simple CLI chatbot loop
 def chatbot():
@@ -33,7 +38,7 @@ def handle_query(query, model_name='Linear Regression'):
     value = int(match.group(2))
     unit = match.group(3).lower()
     # --- Ensemble and Model Comparison ---
-    model_names = ["Linear Regression", "Random Forest", "SVR"]
+    model_names = ["Linear Regression", "Random Forest", "SVR", "Gradient Boosting"]
     if model_name == "Ensemble":
         preds = []
         accs = []
@@ -81,6 +86,8 @@ def handle_query(query, model_name='Linear Regression'):
             model = RandomForestRegressor().fit(X, y)
         elif model_name == 'SVR':
             model = SVR().fit(X, y)
+        elif model_name == 'Gradient Boosting':
+            model = GradientBoostingRegressor().fit(X, y)
         else:
             model = LinearRegression().fit(X, y)
         y_pred = model.predict(X)
@@ -162,6 +169,8 @@ def predict_stock(symbol, days_ahead=0, hours_ahead=0, model_name='Linear Regres
         model = RandomForestRegressor().fit(X, y)
     elif model_name == 'SVR':
         model = SVR().fit(X, y)
+    elif model_name == 'Gradient Boosting':
+        model = GradientBoostingRegressor().fit(X, y)
     else:
         model = LinearRegression().fit(X, y)
     future_dt = datetime.now() + timedelta(days=days_ahead, hours=hours_ahead)
